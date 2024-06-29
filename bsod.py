@@ -27,5 +27,4 @@ try:
     system('color 07')
     system("shutdown /r /t 0")
 except KeyboardInterrupt:
-    input("Are you sure you want to leave?")
     system("shutdown /r /t 0")
